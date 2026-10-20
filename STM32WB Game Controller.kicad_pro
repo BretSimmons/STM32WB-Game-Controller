@@ -64,7 +64,7 @@
           "min_island_area": 10.0,
           "min_thickness": 0.15,
           "pad_connection": 1,
-          "remove_islands": 0,
+          "remove_islands": 1,
           "thermal_relief_gap": 0.4,
           "thermal_relief_spoke_width": 0.25
         }
@@ -83,12 +83,16 @@
       ],
       "drc_exclusions": [
         [
-          "unconnected_items|114300000|97362500|F.Cu|4|13ed6fcd-f8c6-43b3-b7e1-e2a9743bd3c6|244fd79c-008a-4dfa-99ea-985b23e38813",
-          "Same net name internally wired"
+          "unconnected_items|110050000|97362500|F.Cu|4|e9505b8a-9b22-4da2-b2ac-ad33b9fe882a|4e6216c8-af9a-4290-a01e-12d4dc777275",
+          ""
         ],
         [
-          "unconnected_items|116200000|97362500|F.Cu|4|83963a06-b730-49cf-b2d9-a9c028a7e410|d5dda35d-ae9a-4d35-8f69-e6c895a4c4ba",
-          ""
+          "unconnected_items|111950000|99637500|F.Cu|4|73184a59-ae8e-408b-aad9-ea4107bcc33c|d94093a1-100c-43ee-b2b9-5a4bdffbe66e",
+          "Same net name"
+        ],
+        [
+          "unconnected_items|115200000|86675000|F.Cu|4|26108eb9-9c93-4d4b-b61e-73d9f30616c4|060e33f0-49f1-443e-9996-c84f29d6d7a5",
+          "Same net name"
         ]
       ],
       "meta": {
@@ -266,6 +270,10 @@
           "drill": 0.0
         },
         {
+          "diameter": 0.6,
+          "drill": 0.3
+        },
+        {
           "diameter": 0.7,
           "drill": 0.25
         },
@@ -276,6 +284,10 @@
         {
           "diameter": 0.9,
           "drill": 0.4
+        },
+        {
+          "diameter": 1.2,
+          "drill": 0.7
         }
       ],
       "zones_allow_external_fillets": false
@@ -881,7 +893,7 @@
         "uuid": "42038ea7-f27a-45b0-a74c-224540076d34"
       }
     ],
-    "used_designators": "U1-3,L1-3,#PWR1-35,C1-25,Y1-3,FLT1,#FLG1-3,R1-16,J1-6,SW1,D1-3,X1-2,H1-4,FID1-3",
+    "used_designators": "U1-3,L1-3,#PWR1-44,C1-25,Y1-3,FLT1,#FLG1-3,R1-16,J1-6,SW1,D1-3,X1-2,H1-4,FID1-3",
     "variants": []
   },
   "sheets": [
